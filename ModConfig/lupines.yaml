@@ -1,0 +1,47 @@
+version: 0
+remove_models_traits: false #  (default: False) 
+remove_models_classes: false #  (default: False) 
+enable_lupine_model: true #  (default: True) 
+enable_wolp_model: false #  (default: True) 
+
+# lupines:setting-comment-lupine_min_size_range
+lupine_min_size_range: 0.9 # from 0.1 to 1 (default: 0.9) 
+
+# lupines:setting-comment-lupine_max_size_range
+lupine_max_size_range: 1.1 # from 1 to 3 (default: 1.1) 
+
+# lupines:setting-comment-lupine_size_factor
+lupine_size_factor: 1 # from 0.1 to 3 (default: 1) 
+
+# lupines:setting-comment-lupine_max_collision_box_vetrical
+lupine_max_collision_box_vetrical: 2 # from 0.1 to 10 (default: 2) 
+
+# lupines:setting-comment-lupine_max_collision_box_horizontal
+lupine_max_collision_box_horizontal: 0.8 # from 0.1 to 10 (default: 0.8) 
+
+# lupines:setting-comment-lupine_max_eye_height
+lupine_max_eye_height: 3 # from 0.1 to 10 (default: 3) 
+lupine_min_eye_height: 0.1 # from 0.1 to 10 (default: 0.1) 
+lupine_scale_collider_horizontally: true #  (default: True) 
+lupine_scale_collider_vertically: true #  (default: True) 
+
+# lupines:setting-comment-wolp_min_size_range
+wolp_min_size_range: 0.9 # from 0.1 to 1 (default: 0.9) 
+
+# lupines:setting-comment-wolp_max_size_range
+wolp_max_size_range: 1.1 # from 1 to 3 (default: 1.1) 
+
+# lupines:setting-comment-lupine_size_factor
+wolp_size_factor: 1 # from 0.1 to 3 (default: 1) 
+
+# lupines:setting-comment-lupine_max_collision_box_vetrical
+wolp_max_collision_box_vetrical: 2 # from 0.1 to 10 (default: 2) 
+
+# lupines:setting-comment-lupine_max_collision_box_horizontal
+wolp_max_collision_box_horizontal: 0.8 # from 0.1 to 10 (default: 0.8) 
+
+# lupines:setting-comment-lupine_max_eye_height
+wolp_max_eye_height: 3 # from 0.1 to 10 (default: 3) 
+wolp_min_eye_height: 0.1 # from 0.1 to 10 (default: 0.1) 
+wolp_scale_collider_horizontally: true #  (default: True) 
+wolp_scale_collider_vertically: true #  (default: True) 
